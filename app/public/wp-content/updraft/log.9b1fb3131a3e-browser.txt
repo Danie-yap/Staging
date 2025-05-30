@@ -1,0 +1,198 @@
+0000.029 (R) [notice] Looking for db archive: file name: backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-db.gz
+0000.030 (R) [notice] Archive is expected to be size: 233.7 KB: OK
+0000.032 (R) [notice] Looking for mu-plugins archive: file name: backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-mu-plugins.zip
+0000.032 (R) [notice] Archive is expected to be size: 4.9 KB: OK
+0000.033 (R) [notice] Looking for plugins archive: file name: backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-plugins.zip
+0000.034 (R) [notice] Archive is expected to be size: 54443.7 KB: OK
+0000.035 (R) [notice] Looking for themes archive: file name: backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-themes.zip
+0000.036 (R) [notice] Archive is expected to be size: 18920.2 KB: OK
+0000.037 (R) [notice] Looking for uploads archive: file name: backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-uploads.zip
+0000.037 (R) [notice] Archive is expected to be size: 10735.8 KB: OK
+0000.039 (R) [notice] Looking for others archive: file name: backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-others.zip
+0000.039 (R) [notice] Archive is expected to be size: 0.4 KB: OK
+0000.040 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.047 (R) [notice] Unpacking backup... (backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-db.gz, 0.2 Mb)
+0000.049 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.155 (R) [notice] Enabling Maintenance mode&#8230;
+0000.189 (R) [notice] Backup of: https://mediumslateblue-kudu-358643.hostingersite.com
+0000.197 (R) [notice] Content URL: https://mediumslateblue-kudu-358643.hostingersite.com/wp-content
+0000.197 (R) [notice] Uploads URL: https://mediumslateblue-kudu-358643.hostingersite.com/wp-content/uploads
+0000.198 (R) [notice] Old table prefix: wp_
+0000.198 (R) [notice] Old ABSPATH: /home/u199261111/domains/mediumslateblue-kudu-358643.hostingersite.com/public_html/
+0000.198 (R) [notice] UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.198 (R) [notice] Site information: multisite = 0
+0000.198 (R) [notice] Site information: sql_mode = NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.199 (R) [notice] New table prefix: sy_
+0000.214 (R) [notice] Processing table (InnoDB):  wp_options - will restore as: sy_options
+0000.619 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.644 (R) [notice] Atomic restore: renaming new table (sy_options) to final table name (wp_options)
+0001.504 (R) [notice] Search and replacing table: wp_options: rows: 564
+0001.668 (R) [notice] Processing table (InnoDB):  wp_users - will restore as: sy_users
+0001.749 (R) [notice] Atomic restore: dropping original table (wp_users)
+0001.777 (R) [notice] Atomic restore: renaming new table (sy_users) to final table name (wp_users)
+0001.824 (R) [notice] Search and replacing table: wp_users: rows: 1
+0001.830 (R) [notice] Processing table (InnoDB):  wp_usermeta - will restore as: sy_usermeta
+0001.911 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0001.936 (R) [notice] Atomic restore: renaming new table (sy_usermeta) to final table name (wp_usermeta)
+0001.966 (R) [notice] Search and replacing table: wp_usermeta: rows: 22
+0001.967 (R) [notice] Processing table (InnoDB):  wp_actionscheduler_actions - will restore as: sy_actionscheduler_actions
+0002.080 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_actions)
+0002.083 (R) [notice] Atomic restore: renaming new table (sy_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0002.112 (R) [notice] Search and replacing table: wp_actionscheduler_actions: rows: 8
+0002.113 (R) [notice] Processing table (InnoDB):  wp_actionscheduler_claims - will restore as: sy_actionscheduler_claims
+0002.164 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_claims)
+0002.167 (R) [notice] Atomic restore: renaming new table (sy_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0002.190 (R) [notice] Search and replacing table: wp_actionscheduler_claims: rows: 0
+0002.190 (R) [notice] Processing table (InnoDB):  wp_actionscheduler_groups - will restore as: sy_actionscheduler_groups
+0002.253 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_groups)
+0002.256 (R) [notice] Atomic restore: renaming new table (sy_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0002.278 (R) [notice] Search and replacing table: wp_actionscheduler_groups: rows: 2
+0002.279 (R) [notice] Processing table (InnoDB):  wp_actionscheduler_logs - will restore as: sy_actionscheduler_logs
+0002.452 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_logs)
+0002.455 (R) [notice] Atomic restore: renaming new table (sy_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0002.478 (R) [notice] Search and replacing table: wp_actionscheduler_logs: rows: 16
+0002.478 (R) [notice] Processing table (InnoDB):  wp_commentmeta - will restore as: sy_commentmeta
+0002.562 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0002.582 (R) [notice] Atomic restore: renaming new table (sy_commentmeta) to final table name (wp_commentmeta)
+0002.610 (R) [notice] Search and replacing table: wp_commentmeta: rows: 0
+0002.611 (R) [notice] Processing table (InnoDB):  wp_comments - will restore as: sy_comments
+0002.702 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0002.725 (R) [notice] Atomic restore: renaming new table (sy_comments) to final table name (wp_comments)
+0002.757 (R) [notice] Search and replacing table: wp_comments: rows: 1
+0002.758 (R) [notice] Processing table (InnoDB):  wp_links - will restore as: sy_links
+0002.872 (R) [notice] Atomic restore: dropping original table (wp_links)
+0002.893 (R) [notice] Atomic restore: renaming new table (sy_links) to final table name (wp_links)
+0002.919 (R) [notice] Search and replacing table: wp_links: rows: 0
+0002.920 (R) [notice] Processing table (InnoDB):  wp_postmeta - will restore as: sy_postmeta
+0003.299 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0003.320 (R) [notice] Atomic restore: renaming new table (sy_postmeta) to final table name (wp_postmeta)
+0003.345 (R) [notice] Search and replacing table: wp_postmeta: rows: 3
+0003.874 (R) [notice] Processing table (InnoDB):  wp_posts - will restore as: sy_posts
+0004.315 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0004.338 (R) [notice] Atomic restore: renaming new table (sy_posts) to final table name (wp_posts)
+0004.365 (R) [notice] Search and replacing table: wp_posts: rows: 87
+0004.595 (R) [notice] Processing table (InnoDB):  wp_term_relationships - will restore as: sy_term_relationships
+0004.654 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0004.675 (R) [notice] Atomic restore: renaming new table (sy_term_relationships) to final table name (wp_term_relationships)
+0004.698 (R) [notice] Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0004.698 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy - will restore as: sy_term_taxonomy
+0004.760 (R) [notice] Database queries processed: 50 in 4.70 seconds
+0004.778 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0004.826 (R) [notice] Atomic restore: renaming new table (sy_term_taxonomy) to final table name (wp_term_taxonomy)
+0004.899 (R) [notice] Search and replacing table: wp_term_taxonomy: rows: 7
+0004.899 (R) [notice] Processing table (InnoDB):  wp_termmeta - will restore as: sy_termmeta
+0005.056 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0005.077 (R) [notice] Atomic restore: renaming new table (sy_termmeta) to final table name (wp_termmeta)
+0005.100 (R) [notice] Search and replacing table: wp_termmeta: rows: 4
+0005.100 (R) [notice] Processing table (InnoDB):  wp_terms - will restore as: sy_terms
+0005.167 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0005.187 (R) [notice] Atomic restore: renaming new table (sy_terms) to final table name (wp_terms)
+0005.212 (R) [notice] Search and replacing table: wp_terms: rows: 7
+0005.212 (R) [notice] Processing table (InnoDB):  wp_aioseo_cache - will restore as: sy_aioseo_cache
+0005.289 (R) [notice] Atomic restore: dropping original table (wp_aioseo_cache)
+0005.292 (R) [notice] Atomic restore: renaming new table (sy_aioseo_cache) to final table name (wp_aioseo_cache)
+0005.319 (R) [notice] Search and replacing table: wp_aioseo_cache: rows: 5
+0005.320 (R) [notice] Processing table (InnoDB):  wp_aioseo_crawl_cleanup_blocked_args - will restore as: sy_aioseo_crawl_cleanup_blocked_args
+0005.373 (R) [notice] Atomic restore: dropping original table (wp_aioseo_crawl_cleanup_blocked_args)
+0005.376 (R) [notice] Atomic restore: renaming new table (sy_aioseo_crawl_cleanup_blocked_args) to final table name (wp_aioseo_crawl_cleanup_blocked_args)
+0005.400 (R) [notice] Search and replacing table: wp_aioseo_crawl_cleanup_blocked_args: rows: 0
+0005.400 (R) [notice] Processing table (InnoDB):  wp_aioseo_crawl_cleanup_logs - will restore as: sy_aioseo_crawl_cleanup_logs
+0005.450 (R) [notice] Atomic restore: dropping original table (wp_aioseo_crawl_cleanup_logs)
+0005.456 (R) [notice] Atomic restore: renaming new table (sy_aioseo_crawl_cleanup_logs) to final table name (wp_aioseo_crawl_cleanup_logs)
+0005.479 (R) [notice] Search and replacing table: wp_aioseo_crawl_cleanup_logs: rows: 0
+0005.480 (R) [notice] Processing table (InnoDB):  wp_aioseo_notifications - will restore as: sy_aioseo_notifications
+0005.562 (R) [notice] Atomic restore: dropping original table (wp_aioseo_notifications)
+0005.565 (R) [notice] Atomic restore: renaming new table (sy_aioseo_notifications) to final table name (wp_aioseo_notifications)
+0005.590 (R) [notice] Search and replacing table: wp_aioseo_notifications: rows: 3
+0005.591 (R) [notice] Processing table (InnoDB):  wp_aioseo_posts - will restore as: sy_aioseo_posts
+0005.696 (R) [notice] Atomic restore: dropping original table (wp_aioseo_posts)
+0005.699 (R) [notice] Atomic restore: renaming new table (sy_aioseo_posts) to final table name (wp_aioseo_posts)
+0005.728 (R) [notice] Search and replacing table: wp_aioseo_posts: rows: 65
+0006.244 (R) [notice] Processing table (InnoDB):  wp_aioseo_writing_assistant_keywords - will restore as: sy_aioseo_writing_assistant_keywords
+0006.305 (R) [notice] Atomic restore: dropping original table (wp_aioseo_writing_assistant_keywords)
+0006.308 (R) [notice] Atomic restore: renaming new table (sy_aioseo_writing_assistant_keywords) to final table name (wp_aioseo_writing_assistant_keywords)
+0006.334 (R) [notice] Search and replacing table: wp_aioseo_writing_assistant_keywords: rows: 0
+0006.334 (R) [notice] Processing table (InnoDB):  wp_aioseo_writing_assistant_posts - will restore as: sy_aioseo_writing_assistant_posts
+0006.407 (R) [notice] Atomic restore: dropping original table (wp_aioseo_writing_assistant_posts)
+0006.412 (R) [notice] Atomic restore: renaming new table (sy_aioseo_writing_assistant_posts) to final table name (wp_aioseo_writing_assistant_posts)
+0006.438 (R) [notice] Search and replacing table: wp_aioseo_writing_assistant_posts: rows: 0
+0006.438 (R) [notice] Processing table (InnoDB):  wp_litespeed_url - will restore as: sy_litespeed_url
+0006.495 (R) [notice] Atomic restore: dropping original table (wp_litespeed_url)
+0006.498 (R) [notice] Atomic restore: renaming new table (sy_litespeed_url) to final table name (wp_litespeed_url)
+0006.521 (R) [notice] Search and replacing table: wp_litespeed_url: rows: 0
+0006.522 (R) [notice] Processing table (InnoDB):  wp_litespeed_url_file - will restore as: sy_litespeed_url_file
+0006.589 (R) [notice] Disabling Maintenance mode&#8230;
+0006.590 (R) [notice] Atomic restore: dropping original table (wp_litespeed_url_file)
+0006.593 (R) [notice] Atomic restore: renaming new table (sy_litespeed_url_file) to final table name (wp_litespeed_url_file)
+0006.620 (R) [notice] Search and replacing table: wp_litespeed_url_file: rows: 0
+0006.620 (R) [notice] Finished: lines processed: 81 in 6.56 seconds
+0006.620 (R) [notice] Cleaning up rubbish...
+0006.634 (R) [notice] Database search and replace: replace https://mediumslateblue-kudu-358643.hostingersite.com in backup dump with http://staging.local
+0006.634 (R) [notice] Database search and replace: replace http://www.mediumslateblue-kudu-358643.hostingersite.com in backup dump with http://staging.local
+0006.634 (R) [notice] Database search and replace: replace http://mediumslateblue-kudu-358643.hostingersite.com in backup dump with http://staging.local
+0006.634 (R) [notice] Database search and replace: replace https://www.mediumslateblue-kudu-358643.hostingersite.com in backup dump with http://staging.local
+0006.635 (R) [notice] Database search and replace: replace /home/u199261111/domains/mediumslateblue-kudu-358643.hostingersite.com/public_html in backup dump with C:\Users\danie\Local Sites\staging\app\public
+0006.636 (R) [notice] Search and replacing table: wp_actionscheduler_actions: already done
+0006.636 (R) [notice] Search and replacing table: wp_actionscheduler_claims: already done
+0006.636 (R) [notice] Search and replacing table: wp_actionscheduler_groups: already done
+0006.636 (R) [notice] Search and replacing table: wp_actionscheduler_logs: already done
+0006.636 (R) [notice] Search and replacing table: wp_aioseo_cache: already done
+0006.636 (R) [notice] Search and replacing table: wp_aioseo_crawl_cleanup_blocked_args: already done
+0006.636 (R) [notice] Search and replacing table: wp_aioseo_crawl_cleanup_logs: already done
+0006.637 (R) [notice] Search and replacing table: wp_aioseo_notifications: already done
+0006.637 (R) [notice] Search and replacing table: wp_aioseo_posts: already done
+0006.637 (R) [notice] Search and replacing table: wp_aioseo_writing_assistant_keywords: already done
+0006.637 (R) [notice] Search and replacing table: wp_aioseo_writing_assistant_posts: already done
+0006.637 (R) [notice] Search and replacing table: wp_commentmeta: already done
+0006.637 (R) [notice] Search and replacing table: wp_comments: already done
+0006.637 (R) [notice] Search and replacing table: wp_links: already done
+0006.637 (R) [notice] Search and replacing table: wp_litespeed_url: already done
+0006.637 (R) [notice] Search and replacing table: wp_litespeed_url_file: already done
+0006.637 (R) [notice] Search and replacing table: wp_options: already done
+0006.637 (R) [notice] Search and replacing table: wp_postmeta: already done
+0006.637 (R) [notice] Search and replacing table: wp_posts: already done
+0006.638 (R) [notice] Search and replacing table: wp_term_relationships: already done
+0006.638 (R) [notice] Search and replacing table: wp_term_taxonomy: already done
+0006.638 (R) [notice] Search and replacing table: wp_termmeta: already done
+0006.638 (R) [notice] Search and replacing table: wp_terms: already done
+0006.638 (R) [notice] Search and replacing table: wp_usermeta: already done
+0006.638 (R) [notice] Search and replacing table: wp_users: already done
+0006.638 (R) [notice] Tables examined: 24
+0006.638 (R) [notice] Rows examined: 795
+0006.638 (R) [notice] Changes made: 83
+0006.638 (R) [notice] SQL update commands run: 83
+0006.638 (R) [notice] Errors: 0
+0006.638 (R) [notice] Time taken (seconds): 1.506
+0006.662 (R) [notice] Unpacking backup... (backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-mu-plugins.zip, 0 MB)
+0006.671 (R) [notice] Unzip progress: 3 out of 3 files (17.4 KB, mu-plugins/hostinger-preview-domain.php)
+0006.672 (R) [notice] Moving old data out of the way...
+0006.672 (R) [notice] Moving unpacked backup into place...
+0006.674 (R) [notice] Cleaning up rubbish...
+0006.690 (R) [notice] Unpacking backup... (backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-plugins.zip, 53.2 MB)
+0007.098 (R) [notice] Unzip progress: 1253 out of 8957 files (1.2 KB, plugins/ultimate-addons-for-gutenberg/compatibility/class-uagb-twenty-twenty-two-compatibility.php)
+0007.964 (R) [notice] Unzip progress: 2254 out of 8957 files (34.8 MB, plugins/astra-sites/inc/lib/ai-builder/inc/assets/src/components/suggested-keywords.js)
+0008.868 (R) [notice] Unzip progress: 3255 out of 8957 files (51 MB, plugins/google-site-kit/third-party/phpseclib/phpseclib/phpseclib/File/ASN1/Maps/NameConstraints.php)
+0010.289 (R) [notice] Unzip progress: 4256 out of 8957 files (54.9 MB, plugins/google-site-kit/third-party/monolog/monolog/src/Monolog/DateTimeImmutable.php)
+0012.360 (R) [notice] Unzip progress: 5257 out of 8957 files (80 MB, plugins/updraftplus/addons/anonymisation.php)
+0014.316 (R) [notice] Unzip progress: 6258 out of 8957 files (87.7 MB, plugins/updraftplus/templates/wp-admin/settings/exclude-settings-modal/exclude-panel-heading.php)
+0015.684 (R) [notice] Unzip progress: 7259 out of 8957 files (109.1 MB, plugins/all-in-one-seo-pack/dist/Lite/assets/js/SearchConsole.14501db3.js)
+0017.034 (R) [notice] Unzip progress: 8260 out of 8957 files (118.3 MB, plugins/litespeed-cache/assets/img/lscwp_font-icon_32px.svg)
+0018.388 (R) [notice] Unzip progress: 8957 out of 8957 files (137.5 MB, plugins/google-analytics-for-wordpress/assets/js/admin-metabox.js)
+0018.394 (R) [notice] Moving old data out of the way...
+0018.557 (R) [notice] Moving unpacked backup into place...
+0019.688 (R) [notice] Cleaning up rubbish...
+0019.715 (R) [notice] Unpacking backup... (backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-themes.zip, 18.5 MB)
+0020.539 (R) [notice] Unzip progress: 1002 out of 1482 files (14.4 MB, themes/astra/admin/assets/hooks/index.js)
+0021.227 (R) [notice] Unzip progress: 1482 out of 1482 files (34.3 MB, themes/twentytwentyfive/templates/404.html)
+0021.229 (R) [notice] Moving old data out of the way...
+0021.267 (R) [notice] Moving unpacked backup into place...
+0021.504 (R) [notice] Cleaning up rubbish...
+0021.527 (R) [notice] Unpacking backup... (backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-uploads.zip, 10.5 MB)
+0021.819 (R) [notice] Unzip progress: 254 out of 254 files (54.4 MB, uploads/ast-block-templates-json/ast-block-templates-blocks-5.json)
+0021.820 (R) [notice] Moving old data out of the way...
+0021.823 (R) [notice] Moving unpacked backup into place...
+0021.861 (R) [notice] Cleaning up rubbish...
+0021.880 (R) [notice] Unpacking backup... (backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-others.zip, 0 MB)
+0021.901 (R) [notice] Unzip progress: 3 out of 3 files (28 B, index.php)
+0021.905 (R) [notice] Cleaning up rubbish...
+0021.975 (R) [notice] Restore successful!

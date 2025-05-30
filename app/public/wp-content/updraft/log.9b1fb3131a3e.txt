@@ -1,0 +1,251 @@
+0000.012 () Opened log file at time: Fri, 30 May 2025 05:33:35 +0000 on http://staging.local
+0000.012 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.25.5 WP: 6.8.1 PHP: 8.2.27 (cgi-fcgi, Windows NT ZIE 10.0 build 26100 (Windows 11) AMD64) MySQL: 8.0.35 (max packet size=33554432) WPLANG: en_US Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 6.1M | 8M) multisite: N openssl: OpenSSL 3.0.15 3 Sep 2024 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.012 () Free space on disk containing Updraft's temporary directory: 340243.7 MB
+0000.040 () Restore setup, now closing connection and starting restore over AJAX.
+0000.007 () Opened log file at time: Fri, 30 May 2025 05:33:36 +0000 on http://staging.local
+0000.007 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.25.5 WP: 6.8.1 PHP: 8.2.27 (cgi-fcgi, Windows NT ZIE 10.0 build 26100 (Windows 11) AMD64) MySQL: 8.0.35 (max packet size=33554432) WPLANG: en_US Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.4M | 8M) multisite: N openssl: OpenSSL 3.0.15 3 Sep 2024 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.007 () Free space on disk containing Updraft's temporary directory: 340243.3 MB
+0000.008 () Ensuring WP_Filesystem is setup for a restore
+0000.009 () WP_Filesystem is setup and ready for a restore
+0000.029 () Restore job started. Entities to restore: plugins, themes, uploads, mu-plugins, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_actionscheduler_actions","wp_actionscheduler_claims","wp_actionscheduler_groups","wp_actionscheduler_logs","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_aioseo_cache","wp_aioseo_crawl_cleanup_blocked_args","wp_aioseo_crawl_cleanup_logs","wp_aioseo_notifications","wp_aioseo_posts","wp_aioseo_writing_assistant_keywords","wp_aioseo_writing_assistant_posts","wp_litespeed_url","wp_litespeed_url_file"],"tables_to_skip":[],"include_unspecified_plugins":false,"plugins_to_restore":["akismet","all-in-one-seo-pack","astra-sites","google-analytics-for-wordpress","google-site-kit","hostinger","hostinger-easy-onboarding","litespeed-cache","omnisend","ultimate-addons-for-gutenberg","updraftplus"],"plugins_to_skip":[],"include_unspecified_themes":false,"themes_to_restore":["astra","twentytwentyfive","twentytwentyfour","twentytwentythree"],"themes_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.031 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\Users\danie\Local Sites\staging\app\public\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.040 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.047 () Entity: db
+0000.047 () restore_backup(backup_file=backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-db.gz, type=db, info=a:0:{}, last_one=)
+0000.047 () Unpacking backup... (backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-db.gz, 0.2 Mb)
+0000.047 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\Users\danie\Local Sites\staging\app\public\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.048 () Database successfully unpacked
+0000.049 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.056 () Using direct MySQL access; value of use_mysqli is: 1
+0000.056 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.155 () Max packet size: 32 MB
+0000.155 () Entering maintenance mode
+0000.155 () Enabling Maintenance mode&#8230;
+0000.189 () Backup of: https://mediumslateblue-kudu-358643.hostingersite.com
+0000.197 () Content URL: https://mediumslateblue-kudu-358643.hostingersite.com/wp-content
+0000.198 () Uploads URL: https://mediumslateblue-kudu-358643.hostingersite.com/wp-content/uploads
+0000.198 () Old table prefix: wp_
+0000.198 () Old ABSPATH: /home/u199261111/domains/mediumslateblue-kudu-358643.hostingersite.com/public_html/
+0000.198 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.198 () Site information: multisite=0
+0000.198 () Site information: sql_mode=NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.199 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.199 () New table prefix: sy_
+0000.214 () Processing table (InnoDB): wp_options - will restore as: sy_options
+0000.619 () Atomic restore: dropping original table (wp_options)
+0000.644 () Atomic restore: renaming new table (sy_options) to final table name (wp_options)
+0000.671 () Restoring prior UD configuration (table: wp_options; keys: 102)
+0000.965 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0000.965 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0000.965 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0000.965 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0000.965 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0000.965 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0001.019 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0001.048 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0001.054 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0001.175 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 267, C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\updraftplus\options.php)
+0001.181 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 267, C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\updraftplus\options.php)
+0001.504 () Search and replacing table: wp_options: rows: 564
+0001.520 () Incomplete object detected in database: stdClass; Search and replace will be skipped for these entries
+0001.668 () Processing table (InnoDB): wp_users - will restore as: sy_users
+0001.749 () Atomic restore: dropping original table (wp_users)
+0001.777 () Atomic restore: renaming new table (sy_users) to final table name (wp_users)
+0001.824 () Search and replacing table: wp_users: rows: 1
+0001.830 () Processing table (InnoDB): wp_usermeta - will restore as: sy_usermeta
+0001.911 () Atomic restore: dropping original table (wp_usermeta)
+0001.936 () Atomic restore: renaming new table (sy_usermeta) to final table name (wp_usermeta)
+0001.966 () Search and replacing table: wp_usermeta: rows: 22
+0001.967 () Processing table (InnoDB): wp_actionscheduler_actions - will restore as: sy_actionscheduler_actions
+0002.080 () Atomic restore: dropping original table (wp_actionscheduler_actions)
+0002.083 () Atomic restore: renaming new table (sy_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0002.112 () Search and replacing table: wp_actionscheduler_actions: rows: 8
+0002.113 () Incomplete object detected in database: ActionScheduler_SimpleSchedule; Search and replace will be skipped for these entries
+0002.113 () Incomplete object detected in database: ActionScheduler_IntervalSchedule; Search and replace will be skipped for these entries
+0002.113 () Incomplete object detected in database: ActionScheduler_NullSchedule; Search and replace will be skipped for these entries
+0002.113 () Processing table (InnoDB): wp_actionscheduler_claims - will restore as: sy_actionscheduler_claims
+0002.164 () Atomic restore: dropping original table (wp_actionscheduler_claims)
+0002.167 () Atomic restore: renaming new table (sy_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0002.190 () Search and replacing table: wp_actionscheduler_claims: rows: 0
+0002.190 () Processing table (InnoDB): wp_actionscheduler_groups - will restore as: sy_actionscheduler_groups
+0002.253 () Atomic restore: dropping original table (wp_actionscheduler_groups)
+0002.256 () Atomic restore: renaming new table (sy_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0002.279 () Search and replacing table: wp_actionscheduler_groups: rows: 2
+0002.279 () Processing table (InnoDB): wp_actionscheduler_logs - will restore as: sy_actionscheduler_logs
+0002.452 () Atomic restore: dropping original table (wp_actionscheduler_logs)
+0002.455 () Atomic restore: renaming new table (sy_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0002.478 () Search and replacing table: wp_actionscheduler_logs: rows: 16
+0002.478 () Processing table (InnoDB): wp_commentmeta - will restore as: sy_commentmeta
+0002.562 () Atomic restore: dropping original table (wp_commentmeta)
+0002.582 () Atomic restore: renaming new table (sy_commentmeta) to final table name (wp_commentmeta)
+0002.611 () Search and replacing table: wp_commentmeta: rows: 0
+0002.611 () Processing table (InnoDB): wp_comments - will restore as: sy_comments
+0002.702 () Atomic restore: dropping original table (wp_comments)
+0002.725 () Atomic restore: renaming new table (sy_comments) to final table name (wp_comments)
+0002.757 () Search and replacing table: wp_comments: rows: 1
+0002.758 () Processing table (InnoDB): wp_links - will restore as: sy_links
+0002.872 () Atomic restore: dropping original table (wp_links)
+0002.893 () Atomic restore: renaming new table (sy_links) to final table name (wp_links)
+0002.919 () Search and replacing table: wp_links: rows: 0
+0002.919 () Processing table (InnoDB): wp_postmeta - will restore as: sy_postmeta
+0003.299 () Atomic restore: dropping original table (wp_postmeta)
+0003.320 () Atomic restore: renaming new table (sy_postmeta) to final table name (wp_postmeta)
+0003.345 () Search and replacing table: wp_postmeta: rows: 3
+0003.874 () Processing table (InnoDB): wp_posts - will restore as: sy_posts
+0004.315 () Atomic restore: dropping original table (wp_posts)
+0004.338 () Atomic restore: renaming new table (sy_posts) to final table name (wp_posts)
+0004.363 () Skipping search/replace on GUID column in posts table
+0004.365 () Search and replacing table: wp_posts: rows: 87
+0004.595 () Processing table (InnoDB): wp_term_relationships - will restore as: sy_term_relationships
+0004.654 () Atomic restore: dropping original table (wp_term_relationships)
+0004.674 () Atomic restore: renaming new table (sy_term_relationships) to final table name (wp_term_relationships)
+0004.697 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0004.698 () Processing table (InnoDB): wp_term_taxonomy - will restore as: sy_term_taxonomy
+0004.759 () Database queries processed: 50 in 4.70 seconds
+0004.778 () Atomic restore: dropping original table (wp_term_taxonomy)
+0004.826 () Atomic restore: renaming new table (sy_term_taxonomy) to final table name (wp_term_taxonomy)
+0004.899 () Search and replacing table: wp_term_taxonomy: rows: 7
+0004.899 () Processing table (InnoDB): wp_termmeta - will restore as: sy_termmeta
+0005.056 () Atomic restore: dropping original table (wp_termmeta)
+0005.077 () Atomic restore: renaming new table (sy_termmeta) to final table name (wp_termmeta)
+0005.100 () Search and replacing table: wp_termmeta: rows: 4
+0005.100 () Processing table (InnoDB): wp_terms - will restore as: sy_terms
+0005.167 () Atomic restore: dropping original table (wp_terms)
+0005.187 () Atomic restore: renaming new table (sy_terms) to final table name (wp_terms)
+0005.212 () Search and replacing table: wp_terms: rows: 7
+0005.212 () Processing table (InnoDB): wp_aioseo_cache - will restore as: sy_aioseo_cache
+0005.289 () Atomic restore: dropping original table (wp_aioseo_cache)
+0005.292 () Atomic restore: renaming new table (sy_aioseo_cache) to final table name (wp_aioseo_cache)
+0005.319 () Search and replacing table: wp_aioseo_cache: rows: 5
+0005.320 () Processing table (InnoDB): wp_aioseo_crawl_cleanup_blocked_args - will restore as: sy_aioseo_crawl_cleanup_blocked_args
+0005.373 () Atomic restore: dropping original table (wp_aioseo_crawl_cleanup_blocked_args)
+0005.376 () Atomic restore: renaming new table (sy_aioseo_crawl_cleanup_blocked_args) to final table name (wp_aioseo_crawl_cleanup_blocked_args)
+0005.400 () Search and replacing table: wp_aioseo_crawl_cleanup_blocked_args: rows: 0
+0005.400 () Processing table (InnoDB): wp_aioseo_crawl_cleanup_logs - will restore as: sy_aioseo_crawl_cleanup_logs
+0005.450 () Atomic restore: dropping original table (wp_aioseo_crawl_cleanup_logs)
+0005.456 () Atomic restore: renaming new table (sy_aioseo_crawl_cleanup_logs) to final table name (wp_aioseo_crawl_cleanup_logs)
+0005.480 () Search and replacing table: wp_aioseo_crawl_cleanup_logs: rows: 0
+0005.480 () Processing table (InnoDB): wp_aioseo_notifications - will restore as: sy_aioseo_notifications
+0005.562 () Atomic restore: dropping original table (wp_aioseo_notifications)
+0005.565 () Atomic restore: renaming new table (sy_aioseo_notifications) to final table name (wp_aioseo_notifications)
+0005.591 () Search and replacing table: wp_aioseo_notifications: rows: 3
+0005.591 () Processing table (InnoDB): wp_aioseo_posts - will restore as: sy_aioseo_posts
+0005.696 () Atomic restore: dropping original table (wp_aioseo_posts)
+0005.699 () Atomic restore: renaming new table (sy_aioseo_posts) to final table name (wp_aioseo_posts)
+0005.728 () Search and replacing table: wp_aioseo_posts: rows: 65
+0006.244 () Processing table (InnoDB): wp_aioseo_writing_assistant_keywords - will restore as: sy_aioseo_writing_assistant_keywords
+0006.305 () Atomic restore: dropping original table (wp_aioseo_writing_assistant_keywords)
+0006.308 () Atomic restore: renaming new table (sy_aioseo_writing_assistant_keywords) to final table name (wp_aioseo_writing_assistant_keywords)
+0006.334 () Search and replacing table: wp_aioseo_writing_assistant_keywords: rows: 0
+0006.334 () Processing table (InnoDB): wp_aioseo_writing_assistant_posts - will restore as: sy_aioseo_writing_assistant_posts
+0006.407 () Atomic restore: dropping original table (wp_aioseo_writing_assistant_posts)
+0006.412 () Atomic restore: renaming new table (sy_aioseo_writing_assistant_posts) to final table name (wp_aioseo_writing_assistant_posts)
+0006.438 () Search and replacing table: wp_aioseo_writing_assistant_posts: rows: 0
+0006.438 () Processing table (InnoDB): wp_litespeed_url - will restore as: sy_litespeed_url
+0006.495 () Atomic restore: dropping original table (wp_litespeed_url)
+0006.498 () Atomic restore: renaming new table (sy_litespeed_url) to final table name (wp_litespeed_url)
+0006.522 () Search and replacing table: wp_litespeed_url: rows: 0
+0006.522 () Processing table (InnoDB): wp_litespeed_url_file - will restore as: sy_litespeed_url_file
+0006.588 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0006.589 () Unlocking database and leaving maintenance mode
+0006.589 () Disabling Maintenance mode&#8230;
+0006.590 () Atomic restore: dropping original table (wp_litespeed_url_file)
+0006.593 () Atomic restore: renaming new table (sy_litespeed_url_file) to final table name (wp_litespeed_url_file)
+0006.620 () Search and replacing table: wp_litespeed_url_file: rows: 0
+0006.620 () Finished: lines processed: 81 in 6.56 seconds
+0006.620 () Cleaning up rubbish...
+0006.621 () Begin search and replace (updraftplus_restored_db)
+0006.621 () [Database-replace-site-url] Database: search and replace site URL
+0006.621 () Restored pre-migration site ID for this installation
+0006.634 () Database search and replace: replace https://mediumslateblue-kudu-358643.hostingersite.com in backup dump with http://staging.local
+0006.634 () Database search and replace: replace http://www.mediumslateblue-kudu-358643.hostingersite.com in backup dump with http://staging.local
+0006.634 () Database search and replace: replace http://mediumslateblue-kudu-358643.hostingersite.com in backup dump with http://staging.local
+0006.634 () Database search and replace: replace https://www.mediumslateblue-kudu-358643.hostingersite.com in backup dump with http://staging.local
+0006.635 () Database search and replace: replace /home/u199261111/domains/mediumslateblue-kudu-358643.hostingersite.com/public_html in backup dump with C:\Users\danie\Local Sites\staging\app\public
+0006.636 () Search and replacing table: wp_actionscheduler_actions: already done
+0006.636 () Search and replacing table: wp_actionscheduler_claims: already done
+0006.636 () Search and replacing table: wp_actionscheduler_groups: already done
+0006.636 () Search and replacing table: wp_actionscheduler_logs: already done
+0006.636 () Search and replacing table: wp_aioseo_cache: already done
+0006.636 () Search and replacing table: wp_aioseo_crawl_cleanup_blocked_args: already done
+0006.637 () Search and replacing table: wp_aioseo_crawl_cleanup_logs: already done
+0006.637 () Search and replacing table: wp_aioseo_notifications: already done
+0006.637 () Search and replacing table: wp_aioseo_posts: already done
+0006.637 () Search and replacing table: wp_aioseo_writing_assistant_keywords: already done
+0006.637 () Search and replacing table: wp_aioseo_writing_assistant_posts: already done
+0006.637 () Search and replacing table: wp_commentmeta: already done
+0006.637 () Search and replacing table: wp_comments: already done
+0006.637 () Search and replacing table: wp_links: already done
+0006.637 () Search and replacing table: wp_litespeed_url: already done
+0006.637 () Search and replacing table: wp_litespeed_url_file: already done
+0006.637 () Search and replacing table: wp_options: already done
+0006.637 () Search and replacing table: wp_postmeta: already done
+0006.638 () Search and replacing table: wp_posts: already done
+0006.638 () Search and replacing table: wp_term_relationships: already done
+0006.638 () Search and replacing table: wp_term_taxonomy: already done
+0006.638 () Search and replacing table: wp_termmeta: already done
+0006.638 () Search and replacing table: wp_terms: already done
+0006.638 () Search and replacing table: wp_usermeta: already done
+0006.638 () Search and replacing table: wp_users: already done
+0006.661 () Entity: mu-plugins
+0006.661 () restore_backup(backup_file=backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-mu-plugins.zip, type=mu-plugins, info=a:2:{s:4:"path";s:67:"C:\Users\danie\Local Sites\staging\app\public/wp-content/mu-plugins";s:11:"description";s:16:"Must-use plugins";}, last_one=)
+0006.662 () Unpacking backup... (backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-mu-plugins.zip, 0 MB)
+0006.663 () Unzipping backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-mu-plugins.zip to C:/Users/danie/Local Sites/staging/app/public/wp-content/upgrade/5426d58c/ using UpdraftPlus_ZipArchive, starting index 0
+0006.671 () Unzip progress: 3 out of 3 files (17.4 KB, mu-plugins/hostinger-preview-domain.php)
+0006.672 () Moving old data: filesystem method / updraft_dir is potentially possible
+0006.672 () Moving old data: can potentially use wp_filesystem method / -old
+0006.672 () Moving old data out of the way...
+0006.672 () Moving unpacked backup into place...
+0006.673 () Destination directory did not exist, but was successfully created (C:/Users/danie/Local Sites/staging/app/public/wp-content/mu-plugins/)
+0006.674 () Cleaning up rubbish...
+0006.689 () Entity: plugins
+0006.689 () restore_backup(backup_file=backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:64:"C:\Users\danie\Local Sites\staging\app\public/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0006.690 () Unpacking backup... (backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-plugins.zip, 53.2 MB)
+0006.691 () Unzipping backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-plugins.zip to C:/Users/danie/Local Sites/staging/app/public/wp-content/upgrade/4c5b0027/ using UpdraftPlus_ZipArchive, starting index 0
+0007.098 () Unzip progress: 1253 out of 8957 files (1.2 KB, plugins/ultimate-addons-for-gutenberg/compatibility/class-uagb-twenty-twenty-two-compatibility.php)
+0007.964 () Unzip progress: 2254 out of 8957 files (34.8 MB, plugins/astra-sites/inc/lib/ai-builder/inc/assets/src/components/suggested-keywords.js)
+0008.868 () Unzip progress: 3255 out of 8957 files (51 MB, plugins/google-site-kit/third-party/phpseclib/phpseclib/phpseclib/File/ASN1/Maps/NameConstraints.php)
+0010.289 () Unzip progress: 4256 out of 8957 files (54.9 MB, plugins/google-site-kit/third-party/monolog/monolog/src/Monolog/DateTimeImmutable.php)
+0012.360 () Unzip progress: 5257 out of 8957 files (80 MB, plugins/updraftplus/addons/anonymisation.php)
+0014.316 () Unzip progress: 6258 out of 8957 files (87.7 MB, plugins/updraftplus/templates/wp-admin/settings/exclude-settings-modal/exclude-panel-heading.php)
+0015.685 () Unzip progress: 7259 out of 8957 files (109.1 MB, plugins/all-in-one-seo-pack/dist/Lite/assets/js/SearchConsole.14501db3.js)
+0017.035 () Unzip progress: 8260 out of 8957 files (118.3 MB, plugins/litespeed-cache/assets/img/lscwp_font-icon_32px.svg)
+0018.389 () Unzip progress: 8957 out of 8957 files (137.5 MB, plugins/google-analytics-for-wordpress/assets/js/admin-metabox.js)
+0018.393 () Moving old data: filesystem method / updraft_dir is potentially possible
+0018.394 () Moving old data: can potentially use wp_filesystem method / -old
+0018.394 () Moving old data out of the way...
+0018.551 () Top-level entities being moved: akismet, all-in-one-seo-pack, astra-sites, google-analytics-for-wordpress, google-site-kit, hostinger, hostinger-easy-onboarding, litespeed-cache, omnisend, ultimate-addons-for-gutenberg, updraftplus
+0018.556 () Moving unpacked backup into place...
+0019.654 () Top-level entities being moved: akismet, all-in-one-seo-pack, astra-sites, google-analytics-for-wordpress, google-site-kit, hostinger, hostinger-easy-onboarding, litespeed-cache, omnisend, ultimate-addons-for-gutenberg, updraftplus
+0019.688 () Cleaning up rubbish...
+0019.713 () Entity: themes
+0019.713 () restore_backup(backup_file=backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-themes.zip, type=themes, info=a:3:{s:4:"path";s:63:"C:\Users\danie\Local Sites\staging\app\public/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0019.715 () Unpacking backup... (backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-themes.zip, 18.5 MB)
+0019.716 () Unzipping backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-themes.zip to C:/Users/danie/Local Sites/staging/app/public/wp-content/upgrade/2d59c776/ using UpdraftPlus_ZipArchive, starting index 0
+0020.539 () Unzip progress: 1002 out of 1482 files (14.4 MB, themes/astra/admin/assets/hooks/index.js)
+0021.227 () Unzip progress: 1482 out of 1482 files (34.3 MB, themes/twentytwentyfive/templates/404.html)
+0021.228 () Moving old data: filesystem method / updraft_dir is potentially possible
+0021.229 () Moving old data: can potentially use wp_filesystem method / -old
+0021.229 () Moving old data out of the way...
+0021.262 () Top-level entities being moved: astra, twentytwentyfive, twentytwentyfour, twentytwentythree
+0021.267 () Moving unpacked backup into place...
+0021.494 () Top-level entities being moved: astra, twentytwentyfive, twentytwentyfour, twentytwentythree
+0021.504 () Cleaning up rubbish...
+0021.526 () Entity: uploads
+0021.526 () restore_backup(backup_file=backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:64:"C:\Users\danie\Local Sites\staging\app\public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0021.527 () Unpacking backup... (backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-uploads.zip, 10.5 MB)
+0021.528 () Unzipping backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-uploads.zip to C:/Users/danie/Local Sites/staging/app/public/wp-content/upgrade/67266255/ using UpdraftPlus_ZipArchive, starting index 0
+0021.819 () Unzip progress: 254 out of 254 files (54.4 MB, uploads/ast-block-templates-json/ast-block-templates-blocks-5.json)
+0021.820 () Moving old data: filesystem method / updraft_dir is potentially possible
+0021.820 () Moving old data: can potentially use wp_filesystem method / -old
+0021.820 () Moving old data out of the way...
+0021.823 () Moving unpacked backup into place...
+0021.861 () Cleaning up rubbish...
+0021.879 () Entity: others
+0021.879 () restore_backup(backup_file=backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-others.zip, type=others, info=a:2:{s:4:"path";s:56:"C:\Users\danie\Local Sites\staging\app\public/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0021.880 () Unpacking backup... (backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-others.zip, 0 MB)
+0021.881 () Unzipping backup_2025-05-30-0433_mediumslatebluekudu358643host_0c6746187738-others.zip to C:/Users/danie/Local Sites/staging/app/public/wp-content/upgrade/13cf826d/ using UpdraftPlus_ZipArchive, starting index 0
+0021.901 () Unzip progress: 3 out of 3 files (28 B, index.php)
+0021.905 () Cleaning up rubbish...
+0021.975 () Restore successful!
+0021.975 () Restore successful
