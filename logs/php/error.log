@@ -1,0 +1,99 @@
+[30-May-2025 05:33:58 UTC] PHP Warning:  Undefined array key 1 in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\hostinger-easy-onboarding.php on line 51
+[30-May-2025 05:33:58 UTC] PHP Warning:  Undefined array key 2 in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\hostinger-easy-onboarding.php on line 51
+[30-May-2025 05:33:58 UTC] PHP Warning:  Undefined array key 1 in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\hostinger-easy-onboarding.php on line 51
+[30-May-2025 05:33:58 UTC] PHP Warning:  Undefined array key 2 in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\hostinger-easy-onboarding.php on line 51
+[30-May-2025 05:33:58 UTC] PHP Fatal error:  Uncaught Error: Typed static property Hostinger\WpHelper\Utils::$apiTokenFile must not be accessed before initialization in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\vendor\hostinger\hostinger-wp-helper\src\Utils.php:84
+Stack trace:
+#0 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\AmplitudeEvents\Amplitude.php(40): Hostinger\WpHelper\Utils::getApiToken()
+#1 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Admin\Onboarding\AutocompleteSteps.php(32): Hostinger\EasyOnboarding\AmplitudeEvents\Amplitude->__construct()
+#2 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Bootstrap.php(112): Hostinger\EasyOnboarding\Admin\Onboarding\AutocompleteSteps->__construct()
+#3 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Bootstrap.php(42): Hostinger\EasyOnboarding\Bootstrap->load_onboarding_dependencies()
+#4 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Bootstrap.php(36): Hostinger\EasyOnboarding\Bootstrap->load_dependencies()
+#5 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\EasyOnboarding.php(16): Hostinger\EasyOnboarding\Bootstrap->run()
+#6 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\EasyOnboarding.php(20): Hostinger\EasyOnboarding\EasyOnboarding->bootstrap()
+#7 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\loader.php(67): Hostinger\EasyOnboarding\EasyOnboarding->run()
+#8 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\hostinger-easy-onboarding.php(98): require_once('C:\\Users\\danie\\...')
+#9 C:\Users\danie\Local Sites\staging\app\public\wp-settings.php(545): include_once('C:\\Users\\danie\\...')
+#10 C:\Users\danie\Local Sites\staging\app\public\wp-config.php(103): require_once('C:\\Users\\danie\\...')
+#11 C:\Users\danie\Local Sites\staging\app\public\wp-load.php(50): require_once('C:\\Users\\danie\\...')
+#12 C:\Users\danie\Local Sites\staging\app\public\wp-blog-header.php(13): require_once('C:\\Users\\danie\\...')
+#13 C:\Users\danie\Local Sites\staging\app\public\index.php(17): require('C:\\Users\\danie\\...')
+#14 {main}
+  thrown in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\vendor\hostinger\hostinger-wp-helper\src\Utils.php on line 84
+[30-May-2025 05:33:58 UTC] PHP Fatal error:  Uncaught Error: Typed static property Hostinger\WpHelper\Utils::$apiTokenFile must not be accessed before initialization in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\vendor\hostinger\hostinger-wp-helper\src\Utils.php:84
+Stack trace:
+#0 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\AmplitudeEvents\Amplitude.php(40): Hostinger\WpHelper\Utils::getApiToken()
+#1 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Admin\Onboarding\AutocompleteSteps.php(32): Hostinger\EasyOnboarding\AmplitudeEvents\Amplitude->__construct()
+#2 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Bootstrap.php(112): Hostinger\EasyOnboarding\Admin\Onboarding\AutocompleteSteps->__construct()
+#3 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Bootstrap.php(42): Hostinger\EasyOnboarding\Bootstrap->load_onboarding_dependencies()
+#4 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Bootstrap.php(36): Hostinger\EasyOnboarding\Bootstrap->load_dependencies()
+#5 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\EasyOnboarding.php(16): Hostinger\EasyOnboarding\Bootstrap->run()
+#6 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\EasyOnboarding.php(20): Hostinger\EasyOnboarding\EasyOnboarding->bootstrap()
+#7 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\loader.php(67): Hostinger\EasyOnboarding\EasyOnboarding->run()
+#8 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\hostinger-easy-onboarding.php(98): require_once('C:\\Users\\danie\\...')
+#9 C:\Users\danie\Local Sites\staging\app\public\wp-settings.php(545): include_once('C:\\Users\\danie\\...')
+#10 C:\Users\danie\Local Sites\staging\app\public\wp-config.php(103): require_once('C:\\Users\\danie\\...')
+#11 C:\Users\danie\Local Sites\staging\app\public\wp-load.php(50): require_once('C:\\Users\\danie\\...')
+#12 C:\Users\danie\Local Sites\staging\app\public\wp-blog-header.php(13): require_once('C:\\Users\\danie\\...')
+#13 C:\Users\danie\Local Sites\staging\app\public\index.php(17): require('C:\\Users\\danie\\...')
+#14 {main}
+  thrown in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\vendor\hostinger\hostinger-wp-helper\src\Utils.php on line 84
+[30-May-2025 05:33:58 UTC] PHP Warning:  Undefined array key 1 in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\hostinger-easy-onboarding.php on line 51
+[30-May-2025 05:33:58 UTC] PHP Warning:  Undefined array key 2 in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\hostinger-easy-onboarding.php on line 51
+[30-May-2025 05:33:58 UTC] PHP Fatal error:  Uncaught Error: Typed static property Hostinger\WpHelper\Utils::$apiTokenFile must not be accessed before initialization in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\vendor\hostinger\hostinger-wp-helper\src\Utils.php:84
+Stack trace:
+#0 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\AmplitudeEvents\Amplitude.php(40): Hostinger\WpHelper\Utils::getApiToken()
+#1 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Admin\Onboarding\AutocompleteSteps.php(32): Hostinger\EasyOnboarding\AmplitudeEvents\Amplitude->__construct()
+#2 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Bootstrap.php(112): Hostinger\EasyOnboarding\Admin\Onboarding\AutocompleteSteps->__construct()
+#3 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Bootstrap.php(42): Hostinger\EasyOnboarding\Bootstrap->load_onboarding_dependencies()
+#4 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Bootstrap.php(36): Hostinger\EasyOnboarding\Bootstrap->load_dependencies()
+#5 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\EasyOnboarding.php(16): Hostinger\EasyOnboarding\Bootstrap->run()
+#6 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\EasyOnboarding.php(20): Hostinger\EasyOnboarding\EasyOnboarding->bootstrap()
+#7 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\loader.php(67): Hostinger\EasyOnboarding\EasyOnboarding->run()
+#8 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\hostinger-easy-onboarding.php(98): require_once('C:\\Users\\danie\\...')
+#9 C:\Users\danie\Local Sites\staging\app\public\wp-settings.php(545): include_once('C:\\Users\\danie\\...')
+#10 C:\Users\danie\Local Sites\staging\app\public\wp-config.php(103): require_once('C:\\Users\\danie\\...')
+#11 C:\Users\danie\Local Sites\staging\app\public\wp-load.php(50): require_once('C:\\Users\\danie\\...')
+#12 C:\Users\danie\Local Sites\staging\app\public\wp-blog-header.php(13): require_once('C:\\Users\\danie\\...')
+#13 C:\Users\danie\Local Sites\staging\app\public\index.php(17): require('C:\\Users\\danie\\...')
+#14 {main}
+  thrown in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\vendor\hostinger\hostinger-wp-helper\src\Utils.php on line 84
+[30-May-2025 05:34:42 UTC] PHP Warning:  Undefined array key 1 in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\hostinger-easy-onboarding.php on line 51
+[30-May-2025 05:34:42 UTC] PHP Warning:  Undefined array key 2 in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\hostinger-easy-onboarding.php on line 51
+[30-May-2025 05:34:42 UTC] PHP Fatal error:  Uncaught Error: Typed static property Hostinger\WpHelper\Utils::$apiTokenFile must not be accessed before initialization in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\vendor\hostinger\hostinger-wp-helper\src\Utils.php:84
+Stack trace:
+#0 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\AmplitudeEvents\Amplitude.php(40): Hostinger\WpHelper\Utils::getApiToken()
+#1 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Admin\Onboarding\AutocompleteSteps.php(32): Hostinger\EasyOnboarding\AmplitudeEvents\Amplitude->__construct()
+#2 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Bootstrap.php(112): Hostinger\EasyOnboarding\Admin\Onboarding\AutocompleteSteps->__construct()
+#3 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Bootstrap.php(42): Hostinger\EasyOnboarding\Bootstrap->load_onboarding_dependencies()
+#4 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Bootstrap.php(36): Hostinger\EasyOnboarding\Bootstrap->load_dependencies()
+#5 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\EasyOnboarding.php(16): Hostinger\EasyOnboarding\Bootstrap->run()
+#6 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\EasyOnboarding.php(20): Hostinger\EasyOnboarding\EasyOnboarding->bootstrap()
+#7 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\loader.php(67): Hostinger\EasyOnboarding\EasyOnboarding->run()
+#8 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\hostinger-easy-onboarding.php(98): require_once('C:\\Users\\danie\\...')
+#9 C:\Users\danie\Local Sites\staging\app\public\wp-settings.php(545): include_once('C:\\Users\\danie\\...')
+#10 C:\Users\danie\Local Sites\staging\app\public\wp-config.php(103): require_once('C:\\Users\\danie\\...')
+#11 C:\Users\danie\Local Sites\staging\app\public\wp-load.php(50): require_once('C:\\Users\\danie\\...')
+#12 C:\Users\danie\Local Sites\staging\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\danie\\...')
+#13 {main}
+  thrown in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\vendor\hostinger\hostinger-wp-helper\src\Utils.php on line 84
+[30-May-2025 05:34:56 UTC] PHP Warning:  Undefined array key 1 in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\hostinger-easy-onboarding.php on line 51
+[30-May-2025 05:34:56 UTC] PHP Warning:  Undefined array key 2 in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\hostinger-easy-onboarding.php on line 51
+[30-May-2025 05:34:56 UTC] PHP Fatal error:  Uncaught Error: Typed static property Hostinger\WpHelper\Utils::$apiTokenFile must not be accessed before initialization in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\vendor\hostinger\hostinger-wp-helper\src\Utils.php:84
+Stack trace:
+#0 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\AmplitudeEvents\Amplitude.php(40): Hostinger\WpHelper\Utils::getApiToken()
+#1 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Admin\Onboarding\AutocompleteSteps.php(32): Hostinger\EasyOnboarding\AmplitudeEvents\Amplitude->__construct()
+#2 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Bootstrap.php(112): Hostinger\EasyOnboarding\Admin\Onboarding\AutocompleteSteps->__construct()
+#3 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Bootstrap.php(42): Hostinger\EasyOnboarding\Bootstrap->load_onboarding_dependencies()
+#4 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\Bootstrap.php(36): Hostinger\EasyOnboarding\Bootstrap->load_dependencies()
+#5 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\EasyOnboarding.php(16): Hostinger\EasyOnboarding\Bootstrap->run()
+#6 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\includes\EasyOnboarding.php(20): Hostinger\EasyOnboarding\EasyOnboarding->bootstrap()
+#7 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\loader.php(67): Hostinger\EasyOnboarding\EasyOnboarding->run()
+#8 C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\hostinger-easy-onboarding.php(98): require_once('C:\\Users\\danie\\...')
+#9 C:\Users\danie\Local Sites\staging\app\public\wp-settings.php(545): include_once('C:\\Users\\danie\\...')
+#10 C:\Users\danie\Local Sites\staging\app\public\wp-config.php(103): require_once('C:\\Users\\danie\\...')
+#11 C:\Users\danie\Local Sites\staging\app\public\wp-load.php(50): require_once('C:\\Users\\danie\\...')
+#12 C:\Users\danie\Local Sites\staging\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\danie\\...')
+#13 C:\Users\danie\Local Sites\staging\app\public\wp-admin\options-general.php(10): require_once('C:\\Users\\danie\\...')
+#14 {main}
+  thrown in C:\Users\danie\Local Sites\staging\app\public\wp-content\plugins\hostinger-easy-onboarding\vendor\hostinger\hostinger-wp-helper\src\Utils.php on line 84
